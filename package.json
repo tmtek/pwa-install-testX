@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "pwa-install-test",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "per-env",
+    "start:production": "npm run -s serve",
+    "start:development": "npm run -s dev",
+    "build": "preact build",
+    "serve": "preact build && preact serve",
+    "dev": "preact watch",
+    "lint": "eslint src"
+  },
+  "eslintIgnore": [
+    "build/*"
+  ],
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "identity-obj-proxy": "^3.0.0",
+    "per-env": "^1.0.2",
+    "preact-cli": "^2.1.0"
+  },
+  "dependencies": {
+    "preact": "^10.0.0-alpha.2",
+    "preact-pwa-install": "0.0.2"
+  }
+}
