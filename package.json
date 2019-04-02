@@ -19,10 +19,10 @@
     "eslint": "^4.9.0",
     "identity-obj-proxy": "^3.0.0",
     "per-env": "^1.0.2",
-    "preact-cli": "^2.1.0"
+    "preact-cli": "^2.1.0",
+    "webpack-modules": "^1.0.0"
   },
   "dependencies": {
-    "preact": "^10.0.0-alpha.2",
-    "preact-pwa-install": "0.0.2"
+    "preact": "^10.0.0-alpha.2"
   }
 }

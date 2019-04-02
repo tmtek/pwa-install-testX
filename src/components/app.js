@@ -1,11 +1,9 @@
 import { h } from 'preact';
-import { useInstaller } from '../lib/installer';
+import { useInstaller } from 'preact-pwa-install';
 
 
 export default function App() {
-
 	const {installPrompt, isStandalone} = useInstaller();
-
 	return (
 		<div id="app">
 			<h1>Install Test</h1>
