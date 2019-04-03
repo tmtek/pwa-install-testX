@@ -23,6 +23,7 @@
     "webpack-modules": "^1.0.0"
   },
   "dependencies": {
-    "preact": "^10.0.0-alpha.2"
+    "preact": "^10.0.0-alpha.3",
+    "preact-pwa-install": "0.1.0"
   }
 }
